@@ -38,3 +38,4 @@ D:\Desktop\gitItem\MikuSpaceServer\bin\Debug\net8.0\Microsoft.Extensions.ObjectP
 D:\Desktop\gitItem\MikuSpaceServer\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\Desktop\gitItem\MikuSpaceServer\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\Desktop\gitItem\MikuSpaceServer\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+D:\Desktop\gitItem\MikuSpaceServer\obj\Debug\net8.0\MikuSpaceServer.sourcelink.json

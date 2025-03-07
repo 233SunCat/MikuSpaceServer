@@ -4,10 +4,11 @@ namespace MikuSpaceServer.Hubs
 {
     public class NotificationHub:Hub
     {
-        public async Task SendNotification(string message)
+        // 客户端可以调用此方法向服务器发送消息
+        public async Task SendMessage(string user, string message)
         {
-            await Clients.All.SendAsync("ReceiveNotification", message);
+            // 向所有客户端广播消息
+            await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
-
     }
 }
