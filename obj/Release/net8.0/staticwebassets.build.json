@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mG0etLvI/MAaUjgt1zFBC/U5cXpXzqAWjz9YdCZQbGQ=",
+  "Source": "MikuSpaceServer",
+  "BasePath": "_content/MikuSpaceServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

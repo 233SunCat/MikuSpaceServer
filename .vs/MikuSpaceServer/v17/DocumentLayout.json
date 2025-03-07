@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Desktop\\gitItem\\MikuSpaceServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Hubs\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\NotificationHub.cs",
+              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Hubs\\NotificationHub.cs",
+              "RelativeToolTip": "Hubs\\NotificationHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T01:40:11.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAoAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T01:25:53.579Z",
               "EditorCaption": ""
