@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "D:\\Desktop\\gitItem\\MikuSpaceServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|D:\\Desktop\\gitItem\\MikuSpaceServer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|D:\\Desktop\\gitItem\\MikuSpaceServer\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|D:\\Desktop\\gitItem\\MikuSpaceServer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|D:\\Desktop\\gitItem\\MikuSpaceServer\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +34,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-10T02:02:51.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T02:01:40.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
@@ -34,12 +68,11 @@
               "RelativeToolTip": "WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T07:40:55.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T07:40:55.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NotificationHub.cs",
               "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Hubs\\NotificationHub.cs",
               "RelativeDocumentMoniker": "Hubs\\NotificationHub.cs",
@@ -47,12 +80,11 @@
               "RelativeToolTip": "Hubs\\NotificationHub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T01:40:11.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T01:40:11.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -60,8 +92,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T01:25:53.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T01:25:53.579Z"
             }
           ]
         }
