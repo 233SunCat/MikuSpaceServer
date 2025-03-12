@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection;
 
 namespace MikuSpaceServer.Controllers
 {
@@ -13,14 +14,39 @@ namespace MikuSpaceServer.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        private readonly IServiceProvider _serviceProvider;
+        private readonly Assembly _pluginAssembly;
+
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IServiceProvider serviceProvider)
         {
             _logger = logger;
+            _serviceProvider = serviceProvider;
+            _pluginAssembly = Assembly.LoadFrom(Path.Combine(AppContext.BaseDirectory, "Plugins/TestUnit.dll"));
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+
+            // 获取程序集所有非抽象类
+            var types = _pluginAssembly.GetTypes().Where(t => !t.IsAbstract);
+
+            foreach (var type in types)
+            {
+                var service = _serviceProvider.GetService(type);
+                // 精确获取带两个int参数的方法（避免重载问题）
+                var method = type.GetMethod("add", new[] { typeof(int), typeof(int) });
+                if (method != null)
+                {
+                    object[] parameters = new object[] { 10, 20 };
+                    var result = (int)method.Invoke(service, parameters);
+
+                    // 如果是Web项目，可以注入ILogger进行记录
+                    // _logger.LogInformation($"计算结果：{result}");
+                }
+            }
+
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),

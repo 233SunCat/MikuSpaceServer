@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MikuSpaceServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6794c7b51eff8c508a91e85007eef87d674fe4a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36e2df903c2d9cb5de2c076f073b1b3fee3fa295")]
 [assembly: System.Reflection.AssemblyProductAttribute("MikuSpaceServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MikuSpaceServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
