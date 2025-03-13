@@ -1,4 +1,6 @@
 using MikuSpaceServer.Hubs;
+using MikuSpaceServer.Logger;
+using Serilog;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -45,6 +47,26 @@ builder.Services.AddCors(options => {
     });
 });
 
+//日志服务
+Log.Logger = new LoggerConfiguration()
+    //最小输出等级
+    .MinimumLevel.Warning()
+    //增加介质
+    .WriteTo.Console(outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day, outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
+    .CreateLogger();
+//注册serilog服务
+builder.Services.AddSerilog();
+builder.Services.AddLogging(logbuilder =>
+{
+    logbuilder
+    //删除管线上默认的提供程序
+    .ClearProviders()
+    //serilog子管线上的提供程序合并进来
+    .AddSerilog()
+    .AddConsole();
+});
+
 builder.WebHost.UseUrls("http://*:5234"); // 明确指定监听所有IP的5234端口
 
 var app = builder.Build();
@@ -58,6 +80,9 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseHttpsRedirection();
+
+// 添加日志中间件
+app.UseMiddleware<ControllerLoggingMiddleware>();
 
 app.UseAuthorization();
 
