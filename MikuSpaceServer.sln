@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin", "..\Plugin\Plugin.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserCustom", "..\UserCustom\UserCustom.csproj", "{3CD16463-F808-4BD0-B05D-2E3E3D1820F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miku.Log4Net", "..\Miku.Log4Net\Miku.Log4Net.csproj", "{6A957F5E-3E0F-43CC-A766-4DFBDD552095}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miku.Log4Net", "..\Miku.Log4Net\Miku.Log4Net.csproj", "{6A957F5E-3E0F-43CC-A766-4DFBDD552095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleServiceManager", "..\ModuleServiceManager\ModuleServiceManager.csproj", "{BC8E5DF6-5A01-4337-90E3-EAF8809D27A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6A957F5E-3E0F-43CC-A766-4DFBDD552095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A957F5E-3E0F-43CC-A766-4DFBDD552095}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A957F5E-3E0F-43CC-A766-4DFBDD552095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8E5DF6-5A01-4337-90E3-EAF8809D27A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8E5DF6-5A01-4337-90E3-EAF8809D27A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8E5DF6-5A01-4337-90E3-EAF8809D27A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8E5DF6-5A01-4337-90E3-EAF8809D27A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

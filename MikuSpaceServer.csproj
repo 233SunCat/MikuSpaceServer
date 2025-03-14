@@ -22,6 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Miku.Log4Net\Miku.Log4Net.csproj" />
+    <ProjectReference Include="..\ModuleServiceManager\ModuleServiceManager.csproj" />
     <ProjectReference Include="..\Plugin\Plugin.csproj" />
   </ItemGroup>
 

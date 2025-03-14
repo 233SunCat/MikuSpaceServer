@@ -2,7 +2,7 @@ using MikuSpaceServer.Hubs;
 using MikuSpaceServer.Logger;
 using Serilog;
 using System.Reflection;
-
+using Miku.Log4Net;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -48,24 +48,30 @@ builder.Services.AddCors(options => {
 });
 
 //日志服务
-Log.Logger = new LoggerConfiguration()
-    //最小输出等级
-    .MinimumLevel.Warning()
-    //增加介质
-    .WriteTo.Console(outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
-    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day, outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
-    .CreateLogger();
-//注册serilog服务
-builder.Services.AddSerilog();
-builder.Services.AddLogging(logbuilder =>
-{
-    logbuilder
-    //删除管线上默认的提供程序
-    .ClearProviders()
-    //serilog子管线上的提供程序合并进来
-    .AddSerilog()
-    .AddConsole();
-});
+//Log.Logger = new LoggerConfiguration()
+//    //最小输出等级
+//    .MinimumLevel.Warning()
+//    //增加介质
+//    .WriteTo.Console(outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
+//    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day, outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
+//    .CreateLogger();
+////注册serilog服务
+//builder.Services.AddSerilog();
+//builder.Services.AddLogging(logbuilder =>
+//{
+//    logbuilder
+//    //删除管线上默认的提供程序
+//    .ClearProviders()
+//    //serilog子管线上的提供程序合并进来
+//    .AddSerilog()
+//    .AddConsole();
+//});
+
+// 创建模块服务管理器实例
+var moduleServiceManager = new ModuleServiceManager.ModuleServiceManager(builder.Services);
+
+// 手动注册其他类库的服务
+moduleServiceManager.RegisterService<ILoggerTest, LoggerTest>(ServiceLifetime.Singleton);
 
 builder.WebHost.UseUrls("http://*:5234"); // 明确指定监听所有IP的5234端口
 

@@ -3,47 +3,31 @@
   "WorkspaceRootPath": "D:\\Desktop\\gitItem\\MikuSpaceServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A957F5E-3E0F-43CC-A766-4DFBDD552095}|..\\Miku.Log4Net\\Miku.Log4Net.csproj|d:\\desktop\\gititem\\miku.log4net\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A957F5E-3E0F-43CC-A766-4DFBDD552095}|..\\Miku.Log4Net\\Miku.Log4Net.csproj|d:\\desktop\\gititem\\miku.log4net\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\logger\\consolelistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:logger\\consolelistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\logger\\controllerloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:logger\\controllerloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|D:\\Desktop\\gitItem\\MikuSpaceServer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\mikuspaceserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:mikuspaceserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CD16463-F808-4BD0-B05D-2E3E3D1820F9}|..\\UserCustom\\UserCustom.csproj|d:\\desktop\\gititem\\usercustom\\custom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC8E5DF6-5A01-4337-90E3-EAF8809D27A0}|..\\ModuleServiceManager\\ModuleServiceManager.csproj|d:\\desktop\\gititem\\moduleservicemanager\\moduleservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D60C51-7F62-4E3D-BCA5-6F63FE6B2D58}|..\\TestUnit\\TestUnit.csproj|d:\\desktop\\gititem\\testunit\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A957F5E-3E0F-43CC-A766-4DFBDD552095}|..\\Miku.Log4Net\\Miku.Log4Net.csproj|d:\\desktop\\gititem\\miku.log4net\\loggertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CD16463-F808-4BD0-B05D-2E3E3D1820F9}|..\\UserCustom\\UserCustom.csproj|d:\\desktop\\gititem\\usercustom\\usercustom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{6A957F5E-3E0F-43CC-A766-4DFBDD552095}|..\\Miku.Log4Net\\Miku.Log4Net.csproj|d:\\desktop\\gititem\\miku.log4net\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6A957F5E-3E0F-43CC-A766-4DFBDD552095}|..\\Miku.Log4Net\\Miku.Log4Net.csproj|d:\\desktop\\gititem\\miku.log4net\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A957F5E-3E0F-43CC-A766-4DFBDD552095}|..\\Miku.Log4Net\\Miku.Log4Net.csproj|d:\\desktop\\gititem\\miku.log4net\\pack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|D:\\Desktop\\gitItem\\MikuSpaceServer\\logger\\controllerloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:logger\\controllerloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,162 +37,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 446,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Provider.cs",
-              "DocumentMoniker": "D:\\Desktop\\gitItem\\Miku.Log4Net\\Provider.cs",
-              "RelativeDocumentMoniker": "..\\Miku.Log4Net\\Provider.cs",
-              "ToolTip": "D:\\Desktop\\gitItem\\Miku.Log4Net\\Provider.cs",
-              "RelativeToolTip": "..\\Miku.Log4Net\\Provider.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAswBMAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T01:18:29.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Desktop\\gitItem\\Miku.Log4Net\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\Miku.Log4Net\\Class1.cs",
-              "ToolTip": "D:\\Desktop\\gitItem\\Miku.Log4Net\\Class1.cs",
-              "RelativeToolTip": "..\\Miku.Log4Net\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T01:16:39.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ConsoleListener.cs",
-              "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Logger\\ConsoleListener.cs",
-              "RelativeDocumentMoniker": "Logger\\ConsoleListener.cs",
-              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Logger\\ConsoleListener.cs",
-              "RelativeToolTip": "Logger\\ConsoleListener.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Title": "LoggerTest.cs",
+              "DocumentMoniker": "D:\\Desktop\\gitItem\\Miku.Log4Net\\LoggerTest.cs",
+              "RelativeDocumentMoniker": "..\\Miku.Log4Net\\LoggerTest.cs",
+              "ToolTip": "D:\\Desktop\\gitItem\\Miku.Log4Net\\LoggerTest.cs",
+              "RelativeToolTip": "..\\Miku.Log4Net\\LoggerTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T09:54:27.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T06:58:05.289Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
-              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Controllers\\ValuesController.cs",
-              "RelativeToolTip": "Controllers\\ValuesController.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAowGIAAAA2AAAA",
+              "Title": "ModuleServiceManager.cs",
+              "DocumentMoniker": "D:\\Desktop\\gitItem\\ModuleServiceManager\\ModuleServiceManager.cs",
+              "RelativeDocumentMoniker": "..\\ModuleServiceManager\\ModuleServiceManager.cs",
+              "ToolTip": "D:\\Desktop\\gitItem\\ModuleServiceManager\\ModuleServiceManager.cs",
+              "RelativeToolTip": "..\\ModuleServiceManager\\ModuleServiceManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T08:10:56.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T06:47:52.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ControllerLoggingMiddleware.cs",
               "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Logger\\ControllerLoggingMiddleware.cs",
               "RelativeDocumentMoniker": "Logger\\ControllerLoggingMiddleware.cs",
               "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Logger\\ControllerLoggingMiddleware.cs",
               "RelativeToolTip": "Logger\\ControllerLoggingMiddleware.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAANAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T06:04:27.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T05:49:17.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Custom.cs",
-              "DocumentMoniker": "D:\\Desktop\\gitItem\\UserCustom\\Custom.cs",
-              "RelativeDocumentMoniker": "..\\UserCustom\\Custom.cs",
-              "ToolTip": "D:\\Desktop\\gitItem\\UserCustom\\Custom.cs",
-              "RelativeToolTip": "..\\UserCustom\\Custom.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAMAAAA",
+              "DocumentIndex": 4,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "D:\\Desktop\\gitItem\\Miku.Log4Net\\Logger.cs",
+              "RelativeDocumentMoniker": "..\\Miku.Log4Net\\Logger.cs",
+              "ToolTip": "D:\\Desktop\\gitItem\\Miku.Log4Net\\Logger.cs",
+              "RelativeToolTip": "..\\Miku.Log4Net\\Logger.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T03:31:01.109Z",
+              "WhenOpened": "2025-03-14T05:38:22.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Provider.cs",
+              "DocumentMoniker": "D:\\Desktop\\gitItem\\Miku.Log4Net\\Provider.cs",
+              "RelativeDocumentMoniker": "..\\Miku.Log4Net\\Provider.cs",
+              "ToolTip": "D:\\Desktop\\gitItem\\Miku.Log4Net\\Provider.cs",
+              "RelativeToolTip": "..\\Miku.Log4Net\\Provider.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T03:49:14.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAB4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T03:46:04.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MikuSpaceServer.csproj",
-              "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\MikuSpaceServer.csproj",
-              "RelativeDocumentMoniker": "MikuSpaceServer.csproj",
-              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\MikuSpaceServer.csproj",
-              "RelativeToolTip": "MikuSpaceServer.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-12T01:22:49.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Desktop\\gitItem\\TestUnit\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\TestUnit\\Class1.cs",
-              "ToolTip": "D:\\Desktop\\gitItem\\TestUnit\\Class1.cs",
-              "RelativeToolTip": "..\\TestUnit\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "Title": "Pack.cs",
+              "DocumentMoniker": "D:\\Desktop\\gitItem\\Miku.Log4Net\\Pack.cs",
+              "RelativeDocumentMoniker": "..\\Miku.Log4Net\\Pack.cs",
+              "ToolTip": "D:\\Desktop\\gitItem\\Miku.Log4Net\\Pack.cs",
+              "RelativeToolTip": "..\\Miku.Log4Net\\Pack.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAgwBUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T01:24:52.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T03:10:33.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-10T02:02:51.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T02:01:40.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAABAwDcAAAAfAAAA",
+              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAADUAAAAAAAAAAAAQwFEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T01:25:53.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserCustom.csproj",
-              "DocumentMoniker": "D:\\Desktop\\gitItem\\UserCustom\\UserCustom.csproj",
-              "RelativeDocumentMoniker": "..\\UserCustom\\UserCustom.csproj",
-              "ToolTip": "D:\\Desktop\\gitItem\\UserCustom\\UserCustom.csproj",
-              "RelativeToolTip": "..\\UserCustom\\UserCustom.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-12T03:30:47.912Z",
               "EditorCaption": ""
             }
           ]
