@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Desktop\\gitItem\\MikuSpaceServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|D:\\Desktop\\gitItem\\MikuSpaceServer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|d:\\desktop\\gititem\\mikuspaceserver\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|D:\\Desktop\\gitItem\\MikuSpaceServer\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1023E7D-1384-4D2D-9486-E52EAFE7B43B}|MikuSpaceServer.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -109,8 +109,7 @@
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAAAB4AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T03:46:04.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T03:46:04.502Z"
             },
             {
               "$type": "Document",
@@ -130,9 +129,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AQIAADUAAAAAAAAAAAAQwFEAAAAaAAAA",
+              "ToolTip": "D:\\Desktop\\gitItem\\MikuSpaceServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAQwFEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T01:25:53.579Z",
               "EditorCaption": ""
