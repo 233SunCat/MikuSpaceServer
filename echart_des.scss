@@ -1,0 +1,127 @@
+//多行两列
+.description2 {
+    width: 300px;
+    //flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    height: 270px;
+    overflow-y: auto;
+    justify-content: space-between;
+    align-content: flex-start;
+    .Moduleinformation {
+        background: rgba(0, 0, 0, 0.04);
+        margin-bottom: 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(50% - 8.5px); // 50% 宽度减去一半的 margin-bottom
+        height: 39px;
+        border-radius: 10px;
+        padding: 5px 0;
+
+        .numerical {
+            width: 40px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 14px;
+            margin-right: 10px;
+        }
+
+        .Differentcolors {
+            width: 11px;
+            height: 11px;
+            border-radius: 5px;
+            margin: 0 16px;
+        }
+
+        .content {
+            font-size: 18px;
+            font-family: Noto Sans S Chinese;
+            font-weight: 400;
+        }
+    }
+}
+
+//多行一列
+.description1 {
+    width: 280px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+
+    .Moduleinformation {
+        background: rgba(0, 0, 0, 0.04);
+        margin-bottom: 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 270px;
+        height: 39px;
+        border-radius: 10px;
+
+        .numerical {
+            width: 30px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        .Differentcolors {
+            width: 11px;
+            height: 11px;
+            border-radius: 5px;
+            margin: 0 16px;
+        }
+
+        .content {
+            font-size: 14px;
+            font-family: Noto Sans S Chinese;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.7);
+        }
+    }
+}
+.description {
+    width: 280px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+
+    .Moduleinformation {
+        background: rgba(0, 0, 0, 0.04);
+        margin-bottom: 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 270px;
+        height: 39px;
+        border-radius: 10px;
+
+        .numerical {
+            width: 30px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        .Differentcolors {
+            width: 11px;
+            height: 11px;
+            border-radius: 5px;
+            margin: 0 16px;
+        }
+
+        .content {
+            font-size: 14px;
+            font-family: Noto Sans S Chinese;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.7);
+        }
+    }
+}
