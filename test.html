@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs Fillet Corner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #f5b6d7;
+        }
+
+        .tabs-fillet-corner {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+            box-sizing: border-box;
+            padding-top: 9px;
+            overflow: hidden;
+            background: #fff;
+        }
+
+        .tabs-fillet-corner-item-wrap {
+            flex: 1;
+            height: 39px;
+            padding: 0 12px;
+        }
+
+        .tabs-fillet-corner-item-wrap:first-child .tabs-fillet-corner-item {
+            border-top-left-radius: 0;
+        }
+
+        .tabs-fillet-corner-item-wrap:first-child .tabs-fillet-corner-item-active::before {
+            border-radius: 0;
+            transform: skew(0deg);
+            left: -17px;
+        }
+
+        .tabs-fillet-corner-item-wrap:last-child .tabs-fillet-corner-item {
+            border-top-right-radius: 0;
+        }
+
+        .tabs-fillet-corner-item-wrap:last-child .tabs-fillet-corner-item-active::after {
+            border-radius: 0;
+            transform: skew(0deg);
+            right: -17px;
+        }
+
+        .tabs-fillet-corner-item {
+            border-radius: 8px 8px 0 0;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .tabs-fillet-corner-item-text {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin: 0 auto;
+            font-size: 13px;
+            line-height: 39px;
+            color: black;
+            text-align: center;
+            position: relative;
+            cursor: pointer;
+            z-index: 99;
+        }
+
+        .tabs-fillet-corner-item-active {
+            background: #f5b6d7;
+            z-index: 2;
+        }
+
+
+        .tabs-fillet-corner-item-active::before,
+        .tabs-fillet-corner-item-active::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 17px;
+            height: 100%;
+            background: #f5b6d7;
+            border-radius: 17px 17px 0 0;
+        }
+
+        .tabs-fillet-corner-item-active::before {
+            transform: skew(-17deg);
+            left: -6.5px;
+        }
+
+        .tabs-fillet-corner-item-active::after {
+            transform: skew(17deg);
+            right: -6.5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tabs-fillet-corner">
+        <div class="tabs-fillet-corner-item-wrap">
+            <div class="tabs-fillet-corner-item tabs-fillet-corner-item-active">
+                <p>唱</p>
+            </div>
+        </div>
+        <div class="tabs-fillet-corner-item-wrap">
+            <div class="tabs-fillet-corner-item">
+                <p>跳</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
